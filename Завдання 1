@@ -1,15 +1,11 @@
 #include <stdio.h>
-
 int main() {
     char op;
     double num1, num2;
-
     printf("Оберіть операцію (+, -, *, /): ");
     scanf(" %c", &op);
-
     printf("Введіть два числа: ");
     scanf("%lf %lf", &num1, &num2);
-
     switch (op) {
         case '+':
             printf("Результат: %.2lf\n", num1 + num2);
@@ -31,6 +27,5 @@ int main() {
             printf("Хибна операція.\n");
             break;
     }
-
     return 0;
 }
