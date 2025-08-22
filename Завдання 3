@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    double a, b, c;
+    double d;
+
+    printf("Введіть a: ");
+    scanf("%lf", &a);
+
+    printf("Введіть b: ");
+    scanf("%lf", &b);
+
+    printf("Введіть c: ");
+    scanf("%lf", &c);
+
+    d = b * b - 4 * a * c;
+
+    printf("Дискримінант: %.2lf\n", d);
+
+    return 0;
+}
